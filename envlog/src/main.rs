@@ -26,7 +26,7 @@ fn main() {
         let log_entry = LogEntry {
             ts: Local::now().format("%Y-%m-%d %H:%M:%S").to_string(),
             level: record.level().to_string(),
-            line:record.file().unwrap().to_string() +record.line().unwrap().to_string().as_str(),
+            line:record.file().unwrap().to_string() +":"+record.line().unwrap().to_string().as_str(),
             message: record.args().to_string(),
         };
         let json_value = serde_json::to_string(&log_entry);

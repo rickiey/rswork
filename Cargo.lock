@@ -187,6 +187,8 @@ dependencies = [
  "colored",
  "fern",
  "log",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
