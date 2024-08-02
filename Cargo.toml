@@ -6,4 +6,4 @@ members = [
     "cryptors",
     "fernlog",
     "envlog"
-, "stablecoins", "rstracing"]
+, "stablecoins", "rstracing", "watch_file"]
