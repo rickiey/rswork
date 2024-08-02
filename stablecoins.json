@@ -1,0 +1,47 @@
+{
+    "peggedAssets": [
+        {
+            "id": "1",
+            "name": "Tether",
+            "symbol": "USDT",
+            "gecko_id": "tether",
+            "pegType": "peggedUSD",
+            "priceSource": "defillama",
+            "pegMechanism": "fiat-backed",
+            "circulating": {
+                "peggedUSD": 102656982792.43723
+            },
+            "circulatingPrevDay": {
+                "peggedUSD": 102428495867.91408
+            },
+            "circulatingPrevWeek": {
+                "peggedUSD": 100434401357.91165
+            },
+            "circulatingPrevMonth": {
+                "peggedUSD": 96462258381.7681
+            }
+        },
+        {
+            "id": "2",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "gecko_id": "usd-coin",
+            "pegType": "peggedUSD",
+            "priceSource": "defillama",
+            "pegMechanism": "fiat-backed",
+            "circulating": {
+                "peggedUSD": 5159042267.154983
+            },
+            "circulatingPrevDay": {
+                "peggedUSD": 28913701547.209206
+            },
+            "circulatingPrevWeek": {
+                "peggedUSD": 27437293002.293896
+            },
+            "circulatingPrevMonth": {
+                "peggedUSD": 26800410466.413868
+            }
+        }
+    ]
+}
+       

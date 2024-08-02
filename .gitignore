@@ -1,1 +1,5 @@
 **/target
+.history
+log
+.idea
+.vscode

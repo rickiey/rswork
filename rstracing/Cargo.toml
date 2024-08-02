@@ -1,0 +1,10 @@
+[package]
+name = "rstracing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tracing = "0.1.35"
+tracing-subscriber = { version = "0.3.11", features = ["env-filter"] }
+tracing-appender = { version = "0.2.2" }
+log= "0.4"
